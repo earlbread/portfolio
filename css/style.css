@@ -28,6 +28,15 @@ hr {
 }
 
 .title-super {
-    font-size: 60px;
+    font-size: 4em;
 }
 
+@media screen and (max-width: 500px) {
+    .title-super {
+        font-size: 3em;
+    }
+
+    .title-logo {
+        display: none;
+    }
+}
