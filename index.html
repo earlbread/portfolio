@@ -33,121 +33,193 @@
 
   <body>
 
-    <div class="container">
+    <!-- Header -->
+    <header class="container">
 
-      <header class="row">
+      <div class="row">
+
         <div class="col-md-6 col-sm-4 col-xs-4 title-logo">
+
           <i class="fa fa-cube fa-5" aria-hidden="true"></i>
+
+          <!-- /.col-md-6 col-sm-4 col-xs-4 -->
         </div>
+
         <div class="col-md-6 text-right text-uppercase">
+
           <h1 class="text-thin title-super">Seunghun Lee</h1>
           <h4>Front-end Ninja</h4>
+
+          <!-- /.col-md-6 -->
         </div>
-      </header>
+
+        <!-- /.row -->
+      </div>
 
       <div class="row">
         <div class="col-md-12">
+
           <hr>
+
+          <!-- /.col-md-12 -->
         </div>
+        <!-- /.row -->
       </div>
+
+      <!-- /.container -->
+    </header>
+
+
+    <!-- Main image -->
+    <div class="container main-img">
 
       <div class="row">
         <div class="col-md-12">
+
           <img class="img-responsive" src="img/main.jpg" alt="Main image">
+
+          <!-- /.col-md-12 -->
         </div>
+        <!-- /.row -->
       </div>
+
+      <!-- /.container -->
+    </div>
+
+    <!-- Projects -->
+    <section class="container project-title">
 
       <div class="row">
         <div class="col-md-12">
+
           <h2 class="text-muted">My Projects</h2>
+
+          <!-- /.col-md-12 -->
         </div>
+        <!-- /.row -->
       </div>
 
-      <div class="row text-center">
-        <div class="col-md-4">
+      <!-- /.container -->
+    </section>
+
+    <section class="container text-center projects">
+      <div class="row">
+        <div class="col-md-4 project">
+
           <img class="img-responsive app-img" src="img/movie_trailer_website.jpg"
-               data-toggle="modal" data-target="#project1" alt="Movie trailer website image">
+          data-toggle="modal" data-target="#project1" alt="Movie trailer website image">
+
           <h3>Movie Trailer Website</h3>
+
           <p>
             <a href="https://github.com/earlbread/movie_trailer_website">
               Github
             </a>
           </p>
+
+          <!-- /.col-md-4 -->
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 project">
+
           <img class="img-responsive app-img" src="img/multi_user_blog.jpg"
-               data-toggle="modal" data-target="#project2" alt="Multi user blog image">
+          data-toggle="modal" data-target="#project2" alt="Multi user blog image">
+
           <h3>Multi User Blog</h3>
+
           <p>
             <a href="https://github.com/earlbread/simple-multi-user-blog">
               Github
             </a>
           </p>
+
           <p>
             <a href="http://simple-multi-user-blog.appspot.com/blog">
               View
             </a>
           </p>
+
+          <!-- /.col-md-4 -->
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 project">
+
           <img class="img-responsive app-img" src="img/simple_twitter.jpg"
-               data-toggle="modal" data-target="#project3" alt="Simple twitter image">
+          data-toggle="modal" data-target="#project3" alt="Simple twitter image">
+
           <h3>Simple Twitter</h3>
+
           <p>
             <a href="https://github.com/earlbread/rails_tutorial">
               Github
             </a>
           </p>
+
           <p>
             <a href="https://thawing-savannah-50196.herokuapp.com">
               View
             </a>
           </p>
+
+          <!-- /.col-md-4 -->
         </div>
+        <!-- /.row -->
       </div>
+
+      <!-- /.container -->
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="container">
 
       <div class="row">
         <div class="col-md-12">
           <hr>
         </div>
+        <!-- /.row -->
       </div>
 
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <p>
-                Copyright © 2016 Seunghun Lee
-                <a href="https://github.com/earlbread/multi-user-blog">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-                <a href="https://linkedin.com/in/waydi1">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </p>
-            </div>
-            <!-- /.col-lg-12 -->
-          </div>
-          <!-- /.row -->
-        </div>
-      </footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
 
-    </div>
+            <p>
+              Copyright © 2016 Seunghun Lee
+              <a href="https://github.com/earlbread/multi-user-blog">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://linkedin.com/in/waydi1">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </p>
+
+          </div>
+          <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </footer>
 
     <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel">Project1 Page</h4>
           </div>
+
           <div class="modal-body">
-            <img class="img-responsive" src="img/movie_trailer_website.jpg">
+            <img class="img-responsive" src="img/movie_trailer_website.jpg" alt="Movie trailer website image">
             This is project 1page
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
+
         </div>
       </div>
     </div>
@@ -155,16 +227,20 @@
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel2">Project2 Page</h4>
           </div>
+
           <div class="modal-body">
-            <img class="img-responsive" src="img/multi_user_blog.jpg">
+            <img class="img-responsive" src="img/multi_user_blog.jpg" alt="Multi user blog image">
             This is project 2page
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
+
         </div>
       </div>
     </div>
@@ -172,16 +248,20 @@
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
+
           <div class="modal-header">
             <h4 class="modal-title" id="myModalLabel3">Project3 Page</h4>
           </div>
+
           <div class="modal-body">
-            <img class="img-responsive" src="img/simple_twitter.jpg">
+            <img class="img-responsive" src="img/simple_twitter.jpg" alt="Simple twitter image">
             This is project 3page
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
+
         </div>
       </div>
     </div>

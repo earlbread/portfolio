@@ -12,9 +12,9 @@ body {
     color: #7d97ad;
 }
 
-hr {
+header hr {
     border: none;
-    height: 3px;
+    height: 2px;
     color: #7d97ad;
     background-color: #7d97ad;
 }
