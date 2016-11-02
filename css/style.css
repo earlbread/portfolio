@@ -31,6 +31,10 @@ hr {
     font-size: 4em;
 }
 
+.app-img {
+    border: 1px solid black;
+}
+
 @media screen and (max-width: 500px) {
     .title-super {
         font-size: 3em;
