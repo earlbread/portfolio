@@ -40,7 +40,17 @@ header hr {
         font-size: 3em;
     }
 
+    .title-super,
+    .title-mini {
+        text-align: center;
+    }
+
     .title-logo {
-        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-logo i {
+        font-size: 3em;
     }
 }
