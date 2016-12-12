@@ -15,7 +15,7 @@ To begin using this project, choose one of the following options to get started:
 If you want to use grunt for modify responsive images, you need to [install npm][1].
 Then you can use grunt like below:
 
-    $ cd udacity_portfolio_site
+    $ cd portfolio
     $ npm install
     $ grunt
 
