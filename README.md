@@ -3,13 +3,13 @@
 This is the second project of Full Stack Web Developer Nanodegree by Udacity.
 
 You can check live version of this project
-[here](https://earlbread.github.io/udacity_portfolio_site/).
+[here](https://earlbread.github.io/portfolio/).
 
 ## Getting started
 
 To begin using this project, choose one of the following options to get started:
 
- - Clone the repo: git clone https://github.com/earlbread/udacity_portfolio_site.git 
+ - Clone the repo: git clone https://github.com/earlbread/portfolio.git
  - Fork the repo
 
 If you want to use grunt for modify responsive images, you need to [install npm][1].
