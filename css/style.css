@@ -39,6 +39,10 @@ header hr {
     border: 1px solid black;
 }
 
+.project h4 {
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 500px) {
     .title-super {
         font-size: 3em;
