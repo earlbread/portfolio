@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #2d3c49;
 }
@@ -10,6 +10,10 @@ body {
 
 .text-muted {
     color: #7d97ad;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
 }
 
 header hr {
